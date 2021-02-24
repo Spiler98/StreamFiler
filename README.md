@@ -38,10 +38,10 @@
 
 ### C++ szerver fordítása és futtatása
 * Fordítás MinGW-W64-el történt.
-* Fordítás: g++ StreamFilerServer.cpp -std=c++17 -lwsock32 -o StreamFilerServer 
-* Futtatás: StreamFilerServer -c 3 -f "..\io\output" -l 8192 -t 0 8080
+* Fordítás: ```g++ StreamFilerServer.cpp -std=c++17 -lwsock32 -o StreamFilerServer```
+* Futtatás: ```StreamFilerServer -c 3 -f "..\io\output" -l 8192 -t 0 8080```
 
 ### JAVA kliens fordítása és futtatása
 * Fordítás JDK 13.0.2-vel történt.
-* Fordítás: javac StreamFilerClient.java
-* Futtatás: java StreamFilerClient localhost 8080 ..\io\input\
+* Fordítás: ```javac StreamFilerClient.java```
+* Futtatás: ```java StreamFilerClient localhost 8080 ..\io\input\```
